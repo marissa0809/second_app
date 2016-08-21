@@ -5,12 +5,15 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def help
+  def terms&condition
   end
 
-  def mypage
-    
+  def news&events
+  end
+
   def contact
   end
+  
+  def donate
   end
 end

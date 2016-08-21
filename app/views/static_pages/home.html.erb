@@ -1,13 +1,15 @@
 <% provide(:title, 'Home') %>
-<div class="center jumbotron">
+<div class="left jumbotron">
+    
+        <%= link_to image_tag("26085227555_b5f8b1dfd6.jpg", alt: "Children"), '<"https://creativecommons.org/licenses/by/2.0/">(license)' %>
+     
     <h1>Make children wish by donation</h1>
-
-    <h2>How to donate? </br>
-    1. Sign up for our membership </br>
-    2. Choose the payment method </br>
-    3. Make sure if you get an information that is confirmed your donate.</h2>
+   
+    <h2> How to donate?</h2> </br>
+    <h3> 1. Sign up for our membership </br>
+         2. Choose the payment method </br>
+         3. Make sure if you get an information that is confirmed your donate.</h3>
   
-<%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-lg btn-primary" %>
+<%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-lg btn-danger" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
